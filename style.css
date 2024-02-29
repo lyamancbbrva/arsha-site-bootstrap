@@ -1,0 +1,65 @@
+.bg-blue{background: #37517ecc;}
+.blue{color: #37517e;}
+.bg-mavi{background-color: #47b2e4;}
+.light-blue{background-color: #EFF2F8FF;}
+.transition {transition: 1s;}
+.text-gray{color: #999;}
+.text-boz{color: #ccc;}
+.text-green{color: #28a745;;}
+.fs-8em{font-size: .8em;}
+header , #last-sec{background-color: #37517e;}
+nav {
+  background-color: #283a5ae6;
+  z-index: 1000;
+}
+#contact #contact-about i{background-color: #e7f5fb; cursor: pointer;}
+#contact #contact-about p{color: #6182ba;}
+#contact #contact-about i:hover{background-color: #71caf4; color: #fff !important;}
+.vh-50{height: 50vh;}
+.portfolio-bottom {background-color: #283a5ae6;}
+#home {color: #4171c4;}
+#clients img{filter: grayscale(100);}
+.nav-link:hover {color: #4171c4;}
+#about-text p {color: #444;}
+.bg-gray{background-color: #f3f5fa;}
+.accordion-sec p {color: #848484;}
+.progress {
+  height: 10px !important;
+  background: #e8edf5;
+}
+.action {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),
+    url(../img/cta-bg.jpg) fixed center/cover;
+}
+.portfolio-btns a{cursor: pointer;}
+.portfolio-btns a:hover{
+  color: #fff !important;
+  background-color: #0DCAF0FF;
+}
+.team-icon{cursor: pointer;}
+.port-img:hover .port-bottom{display: flex !important;}
+.port-img img:hover{scale: 1.1;}
+.port-bottom{bottom: 20px; height: 80px;}
+.team-icon:hover{background-color: #4171c4;}
+.team-icon:hover i{color: #fff;}
+#accordionFlushExample h6:hover{color: #47b2e4;}
+footer ul{list-style: none;}
+footer ul a:hover{color: #47b2e4 !important;}
+#clients img:hover {
+  scale: 1.2;
+  filter: grayscale(0);
+}
+#services .card:hover .a {color: #47b2e4 !important;}
+#team-cards .card:hover {transform: translateY(-5%);}
+#services-cards .card:hover {transform: translateY(-5%);}
+#learnmore:hover {color: #fff;}
+@media only screen and (min-width: 768px) {
+  header img {animation: headerimg 3s ease-in-out infinite;}
+  @keyframes headerimg {
+    0% {transform: translateY(0%);}
+    50% {transform: translateY(5%);}
+    100% { transform: translateY(0%);}
+  }
+  .action-texts h4,.action-texts p {text-align: left !important;}
+}
+
